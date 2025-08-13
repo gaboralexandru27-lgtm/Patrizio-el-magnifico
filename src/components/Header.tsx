@@ -2,6 +2,7 @@
  const Header: React.FC = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
    const [isSearchOpen, setIsSearchOpen] = useState(false);
+ }
 -  const { cartItems } = useCart();
 +  const { items } = useCart();
    const { user, logout } = useAuth();
